@@ -17,7 +17,7 @@ lol_watcher = LolWatcher(LEAGUE_KEY)
 myRegion = "na1"
 
 OSU_KEY = os.getenv("OSU_KEY")
-url = f"https://osu.ppy.sh/api/get_user?k={OSU_KEY}="
+url = f"https://osu.ppy.sh/api/get_user?k={OSU_KEY}=" 
 
 class WebRequests(commands.Cog):
     def __init__(self, client):
@@ -69,7 +69,7 @@ class WebRequests(commands.Cog):
                 raise
 
     @commands.command()
-    async def osu(self, ctx:commands.Context, *, userName: str):
+    async def osu(self, ctx:commands.Context, *, userName: str): 
         async with aiohttp.ClientSession(loop = ctx.bot.loop) as session:
             async with session.get(url+ userName) as r:
                 data = await r.json()

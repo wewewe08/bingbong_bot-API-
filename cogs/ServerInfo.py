@@ -46,4 +46,4 @@ class ServerInfo(commands.Cog):
 
 #setups
 def setup(client):
-    client.add_cog(ServerInfo(client))
+    client.add_cog(ServerInfo(client)) 

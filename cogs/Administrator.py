@@ -57,7 +57,7 @@ class Administrator(commands.Cog):
             await ctx.send('> **please specify who to ban.**')
 
     @commands.command()
-    @commands.has_permissions(administrator = True)
+    @commands.has_permissions(administrator = True) 
     async def unban(self, ctx, *, member):
         banned_users = await ctx.guild.bans()
         for ban_entry in banned_users:
