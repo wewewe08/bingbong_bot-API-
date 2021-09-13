@@ -20,9 +20,9 @@
 
 
 ## Features
-- basic admin commands: kick players, ban/unban players, clear messages
-- fun commands: send random pictures of dogs/cats, 8ball questions, etc.
-- displaying users commands: display info on a discord member, display info on a league of legends player, display info on an osu player
+* basic admin commands: kick players, ban/unban players, clear messages
+* fun commands: send random pictures of dogs/cats, 8ball questions, etc.
+* displaying users commands: display info on a discord member, display info on a league of legends player, display info on an osu player
 
 
 ## Screenshots
@@ -32,12 +32,12 @@
 
 ## Project Status
 Project is: _in progress_ / _complete_ 
--the discord bot is essentially completed, but there could be little things that i add on to it down the line.
+* the discord bot is essentially completed, but there could be little things that i add on to it down the line.
 
 
 ## Room for Improvement
--cleaner code
--optimization
+*cleaner code
+*optimization
 
 
 ## Contact
