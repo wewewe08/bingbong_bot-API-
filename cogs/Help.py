@@ -73,7 +73,7 @@ class Help(commands.Cog):
         await ctx.send(embed = embed)
 
     @helpcommand.command(name = "osu")
-    async def music_subcommand(self, ctx):
+    async def osu_subcommand(self, ctx):
         author = ctx.message.author
         embed = discord.Embed(
             colour = discord.Colour.purple(),
@@ -85,7 +85,7 @@ class Help(commands.Cog):
         await ctx.send(embed = embed)
         
     @helpcommand.command(name = "league")
-    async def music_subcommand(self, ctx):
+    async def league_subcommand(self, ctx):
         author = ctx.message.author
         embed = discord.Embed( 
             colour = discord.Colour.purple(),
