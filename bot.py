@@ -1,17 +1,8 @@
 import discord
 import os
-import random
-import shutil
-import datetime
-import time
-import asyncio
 import logging
-import json
-import os
 
 from discord.ext import commands
-from discord.utils import get
-from discord.ext.commands import ConversionError
 from dotenv import load_dotenv
 
 load_dotenv()
