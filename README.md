@@ -33,7 +33,7 @@
 
 
 ## Project Status
-Project is: _in progress_ / _complete_ 
+Project is: _complete_ 
 * the discord bot is essentially completed, but there could be little things that i add on to it down the line.
 
 
